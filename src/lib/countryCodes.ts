@@ -1,0 +1,62 @@
+
+// List of country codes with dial codes and validation info
+export const countryCodes = [
+  { code: "US", name: "United States", dial_code: "+1", flag: "🇺🇸", phone_length: 10 },
+  { code: "GB", name: "United Kingdom", dial_code: "+44", flag: "🇬🇧", phone_length: 10 },
+  { code: "CA", name: "Canada", dial_code: "+1", flag: "🇨🇦", phone_length: 10 },
+  { code: "AU", name: "Australia", dial_code: "+61", flag: "🇦🇺", phone_length: 9 },
+  { code: "AF", name: "Afghanistan", dial_code: "+93", flag: "🇦🇫", phone_length: 9 },
+  { code: "DZ", name: "Algeria", dial_code: "+213", flag: "🇩🇿", phone_length: 9 },
+  { code: "AR", name: "Argentina", dial_code: "+54", flag: "🇦🇷", phone_length: 10 },
+  { code: "BD", name: "Bangladesh", dial_code: "+880", flag: "🇧🇩", phone_length: 10 },
+  { code: "BE", name: "Belgium", dial_code: "+32", flag: "🇧🇪", phone_length: 9 },
+  { code: "BR", name: "Brazil", dial_code: "+55", flag: "🇧🇷", phone_length: 11 },
+  { code: "CN", name: "China", dial_code: "+86", flag: "🇨🇳", phone_length: 11 },
+  { code: "EG", name: "Egypt", dial_code: "+20", flag: "🇪🇬", phone_length: 10 },
+  { code: "FR", name: "France", dial_code: "+33", flag: "🇫🇷", phone_length: 9 },
+  { code: "DE", name: "Germany", dial_code: "+49", flag: "🇩🇪", phone_length: 11 },
+  { code: "IN", name: "India", dial_code: "+91", flag: "🇮🇳", phone_length: 10 },
+  { code: "ID", name: "Indonesia", dial_code: "+62", flag: "🇮🇩", phone_length: 10 },
+  { code: "IR", name: "Iran", dial_code: "+98", flag: "🇮🇷", phone_length: 10 },
+  { code: "IQ", name: "Iraq", dial_code: "+964", flag: "🇮🇶", phone_length: 10 },
+  { code: "IE", name: "Ireland", dial_code: "+353", flag: "🇮🇪", phone_length: 9 },
+  { code: "IL", name: "Israel", dial_code: "+972", flag: "🇮🇱", phone_length: 9 },
+  { code: "IT", name: "Italy", dial_code: "+39", flag: "🇮🇹", phone_length: 10 },
+  { code: "JP", name: "Japan", dial_code: "+81", flag: "🇯🇵", phone_length: 10 },
+  { code: "JO", name: "Jordan", dial_code: "+962", flag: "🇯🇴", phone_length: 9 },
+  { code: "KE", name: "Kenya", dial_code: "+254", flag: "🇰🇪", phone_length: 9 },
+  { code: "KW", name: "Kuwait", dial_code: "+965", flag: "🇰🇼", phone_length: 8 },
+  { code: "LB", name: "Lebanon", dial_code: "+961", flag: "🇱🇧", phone_length: 8 },
+  { code: "MY", name: "Malaysia", dial_code: "+60", flag: "🇲🇾", phone_length: 9 },
+  { code: "MX", name: "Mexico", dial_code: "+52", flag: "🇲🇽", phone_length: 10 },
+  { code: "MA", name: "Morocco", dial_code: "+212", flag: "🇲🇦", phone_length: 9 },
+  { code: "NL", name: "Netherlands", dial_code: "+31", flag: "🇳🇱", phone_length: 9 },
+  { code: "NZ", name: "New Zealand", dial_code: "+64", flag: "🇳🇿", phone_length: 9 },
+  { code: "NG", name: "Nigeria", dial_code: "+234", flag: "🇳🇬", phone_length: 10 },
+  { code: "NO", name: "Norway", dial_code: "+47", flag: "🇳🇴", phone_length: 8 },
+  { code: "PK", name: "Pakistan", dial_code: "+92", flag: "🇵🇰", phone_length: 10 },
+  { code: "PH", name: "Philippines", dial_code: "+63", flag: "🇵🇭", phone_length: 10 },
+  { code: "PL", name: "Poland", dial_code: "+48", flag: "🇵🇱", phone_length: 9 },
+  { code: "PT", name: "Portugal", dial_code: "+351", flag: "🇵🇹", phone_length: 9 },
+  { code: "QA", name: "Qatar", dial_code: "+974", flag: "🇶🇦", phone_length: 8 },
+  { code: "RU", name: "Russia", dial_code: "+7", flag: "🇷🇺", phone_length: 10 },
+  { code: "SA", name: "Saudi Arabia", dial_code: "+966", flag: "🇸🇦", phone_length: 9 },
+  { code: "SG", name: "Singapore", dial_code: "+65", flag: "🇸🇬", phone_length: 8 },
+  { code: "ZA", name: "South Africa", dial_code: "+27", flag: "🇿🇦", phone_length: 9 },
+  { code: "KR", name: "South Korea", dial_code: "+82", flag: "🇰🇷", phone_length: 10 },
+  { code: "ES", name: "Spain", dial_code: "+34", flag: "🇪🇸", phone_length: 9 },
+  { code: "SE", name: "Sweden", dial_code: "+46", flag: "🇸🇪", phone_length: 9 },
+  { code: "CH", name: "Switzerland", dial_code: "+41", flag: "🇨🇭", phone_length: 9 },
+  { code: "SY", name: "Syria", dial_code: "+963", flag: "🇸🇾", phone_length: 9 },
+  { code: "TW", name: "Taiwan", dial_code: "+886", flag: "🇹🇼", phone_length: 9 },
+  { code: "TH", name: "Thailand", dial_code: "+66", flag: "🇹🇭", phone_length: 9 },
+  { code: "TR", name: "Turkey", dial_code: "+90", flag: "🇹🇷", phone_length: 10 },
+  { code: "AE", name: "United Arab Emirates", dial_code: "+971", flag: "🇦🇪", phone_length: 9 },
+  { code: "YE", name: "Yemen", dial_code: "+967", flag: "🇾🇪", phone_length: 9 }
+];
+
+// Get phone length for a specific country code
+export const getPhoneLengthForCountry = (dialCode: string): number => {
+  const country = countryCodes.find(c => c.dial_code === dialCode);
+  return country?.phone_length || 10; // Default to 10 if not found
+};
