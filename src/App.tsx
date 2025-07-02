@@ -89,7 +89,7 @@ const App = () => {
                   <SearchPreservationProvider>
                     <MobileNotificationProvider>
                       <Routes>
-                        <Route path="/" element={<Index />} />
+                        <Route path="/" element={<Navigate to="/login" replace />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/forgot-password" element={<ForgotPassword />} />

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">NikkahFirst</string>
+    <string name="title_activity_main">NikkahFirst</string>
+    <string name="package_name">com.nikkahfirst</string>
+    <string name="custom_url_scheme">com.nikkahfirst</string>
+</resources>
