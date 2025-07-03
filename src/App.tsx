@@ -89,7 +89,7 @@ const App = () => {
                   <SearchPreservationProvider>
                     <MobileNotificationProvider>
                       <Routes>
-                        <Route path="/" element={<Navigate to="/login" replace />} />
+                        <Route path="/" element={<Navigate to="/signup" replace />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/forgot-password" element={<ForgotPassword />} />
@@ -113,9 +113,11 @@ const App = () => {
                         <Route path="/admin/users" element={<AdminUsers />} />
                         <Route path="/admin/payments" element={<AdminPayments />} />
                         <Route path="/admin/affiliates" element={<AdminAffiliates />} />
+                        {/*
                         <Route path="/google-error" element={<GoogleErrorPage />} />
                         <Route path="/google-account-fix" element={<GoogleAccountFix />} />
                         <Route path="/google-fix-wali" element={<GoogleFixWali />} />
+                        */}
                         <Route path="*" element={<NotFound />} />
                       </Routes>
                     </MobileNotificationProvider>
